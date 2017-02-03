@@ -22,6 +22,8 @@ LEFT JOIN address a ON md.id = a.id AND md.latest = a.updatedate;
 -- 10.2 Join table PEOPLE and ADDRESS, but ONLY keep the LATEST address information for each person.
 -- i.e., the joined table should have the same number of rows as table PEOPLE
 
+###Query Results
+
 id |   address   |   latest   
 |----|-------------|------------
  1 | address-1-2 | 2016-09-02
